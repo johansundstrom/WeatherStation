@@ -1,0 +1,18 @@
+DHT22
+
+* Low cost
+* 3 to 5V power and I/O
+* 2.5mA max current use during conversion (while requesting data)
+* Good for 0-100% humidity readings with 2-5% accuracy
+* Good for -40 to 125°C temperature readings ±0.5°C accuracy
+* No more than 0.5 Hz sampling rate (once every 2 seconds)
+* Body size 15.1mm x 25mm x 7.7mm
+* The DHTxx has 4 pins (facing the sensor, pin 1 is the most left) 
+Pinout
+1. VCC (we can connect to external 5V or to 3.3V from NodeMCU);
+2. Data out;
+3. Not Connected
+4. Ground.
+* One usually you will use the sensor on distances less than 20m,
+* a 10K ohm resistor should be connected between Data and VCC pins. 
+The Output pin will be connected to NodeMCU pin D3 (see the diagram above).
