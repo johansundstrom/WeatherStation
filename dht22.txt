@@ -16,3 +16,6 @@ Pinout
 * One usually you will use the sensor on distances less than 20m,
 * a 10K ohm resistor should be connected between Data and VCC pins. 
 The Output pin will be connected to NodeMCU pin D3 (see the diagram above).
+
+LIBRARY
+https://github.com/adafruit/DHT-sensor-library
