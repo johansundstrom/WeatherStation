@@ -13,8 +13,9 @@ Observera att en pinne, exempelvis översta till höger, kan ha flera benämning
 * D0 - säger kortet
 * GPIO16 - General Purpose In-/Output 16
 * PIN 1 - första pin
+Allt handlar om att benämna pinnarna logiskt, fysiskt eller kronologiskt
 
-Detta gäller
+Detta gäller...
 
 | GPIO Pin | I/O Index Number |
 |----------|:----------------:|
@@ -47,6 +48,12 @@ eller...
 #define DHTPIN D3       //GPIO0 (D3) [4:e pinnen]
 ```
 
+
+## Installera Arduino IDE
+* Gå till <a href="https://www.arduino.cc/">
+* ```Download the Arduino IDE``` - Aktuell version är 1.8.5
+
+
 ## Skapa konto
 Vi läser väderprognoser och -observationer från Weather Underground. 
 * Skapa konto på https://www.wunderground.com/
@@ -55,11 +62,6 @@ Vi läser väderprognoser och -observationer från Weather Underground.
 * Välj Developer ($0) - notera 10 calls/minute
 * Purchase Key
 * Notera Key ID
-
-
-## Installera Arduino IDE
-* Gå till <a href="https://www.arduino.cc/">
-* ```Download the Arduino IDE``` - Aktuell version är 1.8.5
 
 
 ## Ladda ned exempelkod
@@ -71,10 +73,28 @@ Vi läser väderprognoser och -observationer från Weather Underground.
 
 * Navigera in i den nya mappen ```WeatherStation```
 * I den mappen ligger ```Home_Weather_Station_Final```
-* Dubbelklicka på ```Home_Weather_Station_Final.ino```
 
 
+## Redigera exempelkoden
+Titta in i följande filer i denna ordning:
+1. ```stationDefines.h```
+2. ```stationCredentials.h```
+3. ```WeatherStationImages.h```
+4. ```WeatherStationFonts.h```
+5. ```Home_Weather_Station_Final.ino```
 
+### Redigera 
+* ```stationCredentials.h``` - uppdatera nästan allt här
+
+### Läs ut
+* ```stationDefines.h``` - Vilken pinne antas DHT22 vara ansluten till?
+* ```Home_Weather_Station_Final.ino``` - Vilka pinnar antas OLED vara kopplad till?
+
+### Koppla
+* Anslut enligt schema
+* Gå igenom anslutningarna igen (blir det fel finns risken att det kan det gå sönder)
+* Anslut USB-kabeln
+* Kompilera, länka och ladda nad programmet på NodeMCU
 
 
 
