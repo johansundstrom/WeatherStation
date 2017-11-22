@@ -14,6 +14,7 @@ Observera att en pinne, exempelvis översta till höger, kan ha flera benämning
 * GPIO16 - är dess General Purpose In/Output 16
 * PIN 1 - första pin
 Detta gäller
+
 | GPIO Pin | I/O Index Number |
 |----------|------------------|
 | GPIO0    | 3                |
