@@ -17,12 +17,12 @@ Detta gäller
 
 | GPIO Pin | I/O Index Number |
 |----------|------------------|
-| GPIO0    | 3                |
-| GPIO1    | 10               | 
-| GPIO2    | 4                |
-| GPIO3    | 9                |
-| GPIO4    | 2                | 
-| GPIO5    | 1                |
+| GPIO0  | 3 |
+| GPIO1  | 10 | 
+| GPIO2  | 4 |
+| GPIO3  | 9 |
+| GPIO4  | 2 | 
+| GPIO5  | 1 |
 | GPIO6 | N/A |
 | GPIO7 | N/A | 
 | GPIO8 | N/A |
