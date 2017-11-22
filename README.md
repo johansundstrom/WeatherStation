@@ -58,7 +58,7 @@ Vi läser väderprognoser och -observationer från Weather Underground.
 
 
 ## Installera Arduino IDE
-* Gå till https://www.arduino.cc/
+* Gå till <a href="https://www.arduino.cc/">
 * ```Download the Arduino IDE``` - Aktuell version är 1.8.5
 
 
