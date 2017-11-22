@@ -17,7 +17,7 @@ Observera att en pinne, exempelvis översta till höger, kan ha flera benämning
 Detta gäller
 
 | GPIO Pin | I/O Index Number |
-|----------|------------------|
+|----------|:----------------:|
 | GPIO0  | 3 |
 | GPIO1  | 10 | 
 | GPIO2  | 4 |
@@ -46,4 +46,35 @@ eller...
 ```javascript
 #define DHTPIN D3       //GPIO0 (D3) [4:e pinnen]
 ```
+
+## Skapa konto
+Vi läser väderprognoser och -observationer från Weather Underground. 
+* Skapa konto på https://www.wunderground.com/
+* Gå till Weather API
+* Key settings
+* Välj Developer ($0) - notera 10 calls/minute
+* Purchase Key
+* Notera Key ID
+
+
+## Installera Arduino IDE
+* Gå till https://www.arduino.cc/
+* ```Download the Arduino IDE``` - Aktuell version är 1.8.5
+
+
+## Ladda ned exempelkod
+* Öppna terminal med Git
+* Navigera till Proj-mapp i filsystemet
+* Följande skapar ny mapp i Proj med namnet ```WeatherStation```
+
+```git clone https://github.com/johansundstrom/WeatherStation.git```
+
+* Navigera in i den nya mappen ```WeatherStation```
+* I den mappen ligger ```Home_Weather_Station_Final```
+* Dubbelklicka på ```Home_Weather_Station_Final.ino```
+
+
+
+
+
 
