@@ -39,6 +39,11 @@ Detta gäller
 När det i koden står 
 
 ```javascript
-const int SDA_PIN = 5; //GPIO5 (D1) {2:a pinnen}
+const int SDA_PIN = 5;  //GPIO5 (D1) [2:a pinnen]
 const int SCL_PIN = 4;
 ```
+eller...
+```javascript
+#define DHTPIN D3       //GPIO0 (D3) [4:e pinnen]
+```
+
