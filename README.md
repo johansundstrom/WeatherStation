@@ -11,8 +11,9 @@ Väderstation
 
 Observera att en pinne, exempelvis översta till höger, kan ha flera benämningar.
 * D0 - säger kortet
-* GPIO16 - är dess General Purpose In/Output 16
+* GPIO16 - General Purpose In-/Output 16
 * PIN 1 - första pin
+
 Detta gäller
 
 | GPIO Pin | I/O Index Number |
@@ -34,3 +35,10 @@ Detta gäller
 | GPIO14 | 5 |
 | GPIO15 | 8 |
 | GPIO16 | 0 |
+
+När det i koden står 
+
+```javascript
+const int SDA_PIN = 5; //GPIO5 (D1) {2:a pinnen}
+const int SCL_PIN = 4;
+```
