@@ -101,6 +101,7 @@ Titta in i följande filer i denna ordning:
 * Gå igenom anslutningarna igen (blir det fel finns risken att det kan det gå sönder)
 * Anslut USB-kabeln
 * Se till att datorn hittar porten (COMMx)
+* I Boardmanager, kontrollera att denna rad är med ```http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json```
 * I Arduino, kontrollera 1) rätt board 2) 115200baud 3) 80MHz 4) Rätt COMMx
 * Kompilera, länka och ladda ned programmet på NodeMCU
 
