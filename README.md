@@ -84,7 +84,13 @@ Titta in i följande filer i denna ordning:
 5. ```Home_Weather_Station_Final.ino```
 
 ### Redigera 
-* ```stationCredentials.h``` - uppdatera nästan allt här
+* ```stationCredentials.h``` - uppdatera följande...
+1. WIFI_SSID
+2. WIFI_PWD
+3. API_KEY
+4. LANGUAGE
+5. COUNTRY
+6. CITY
 
 ### Läs ut
 * ```stationDefines.h``` - Vilken pinne antas DHT22 vara ansluten till?
@@ -94,7 +100,9 @@ Titta in i följande filer i denna ordning:
 * Anslut enligt schema
 * Gå igenom anslutningarna igen (blir det fel finns risken att det kan det gå sönder)
 * Anslut USB-kabeln
-* Kompilera, länka och ladda nad programmet på NodeMCU
+* Se till att datorn hittar porten (COMMx)
+* I Arduino, kontrollera 1) rätt board 2) 115200baud 3) 80MHz 4) Rätt COMMx
+* Kompilera, länka och ladda ned programmet på NodeMCU
 
 
 
